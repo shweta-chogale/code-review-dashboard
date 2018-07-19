@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="code_review_data")
+@Table(name="code_review_summary")
 public class CodeReviewData implements Serializable {
 
 	/**
