@@ -1,13 +1,13 @@
-CREATE DATABASE  IF NOT EXISTS `corvil_review_data` 
-USE `corvil_review_data`;
+CREATE DATABASE  IF NOT EXISTS `code_review_data` 
+USE `code_review_data`;
 
 --
--- Table structure for table `code_review_data`
+-- Table structure for table `code_review_summary`
 --
 
-DROP TABLE IF EXISTS `code_review_data`;
+DROP TABLE IF EXISTS `code_review_summary`;
 
-CREATE TABLE `code_review_data` (
+CREATE TABLE `code_review_summary` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
   `author_name` varchar(45) DEFAULT NULL,
   `review_ID` varchar(45) DEFAULT NULL,
